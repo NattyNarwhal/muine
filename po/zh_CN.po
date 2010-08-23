@@ -2,15 +2,15 @@
 # Copyright (C) 2004-2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the muine package.
 # Funda Wang <fundawang@linux.net.cn>, 2004.
-# Aron Xu <aronmalache@163.com>, 2009.
 #
+# Aron Xu <aronmalache@163.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: Muine\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=muine&component=general\n"
-"POT-Creation-Date: 2009-04-17 13:24+0000\n"
-"PO-Revision-Date: 2009-05-28 14:50+0800\n"
+"POT-Creation-Date: 2010-06-17 07:23+0000\n"
+"PO-Revision-Date: 2010-08-23 14:20+0800\n"
 "Last-Translator: Aron Xu <aronmalache@163.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -99,17 +99,16 @@ msgid "Height of the playlist window."
 msgstr "播放列表窗口高度。"
 
 #: ../data/muine.schemas.in.h:13
-#, fuzzy
 msgid "Horizontal position of the playlist window."
-msgstr "播放列表窗口高度。"
+msgstr "播放列表窗口的水平位置。"
 
 #: ../data/muine.schemas.in.h:14
 msgid "Last used folder from \"Import folder\" dialog."
-msgstr ""
+msgstr "“导入文件夹”对话框中的最后使用的文件夹。"
 
 #: ../data/muine.schemas.in.h:15
 msgid "Last used folder from the playlist file selectors."
-msgstr ""
+msgstr "播放列表选择器中的最后使用文件夹。"
 
 #: ../data/muine.schemas.in.h:16
 msgid "Only complete albums"
@@ -124,14 +123,12 @@ msgid "Playlist window height"
 msgstr "播放列表窗口高度"
 
 #: ../data/muine.schemas.in.h:19
-#, fuzzy
 msgid "Playlist window horizontal position"
-msgstr "播放列表窗口高度"
+msgstr "播放列表窗口水平位置"
 
 #: ../data/muine.schemas.in.h:20
-#, fuzzy
 msgid "Playlist window vertical position"
-msgstr "播放列表窗口高度"
+msgstr "播放列表窗口竖直位置位置"
 
 #: ../data/muine.schemas.in.h:21
 msgid "Playlist window width"
@@ -146,9 +143,8 @@ msgid "Show Notifications"
 msgstr "显示提示"
 
 #: ../data/muine.schemas.in.h:24
-#, fuzzy
 msgid "Vertical position of the playlist window."
-msgstr "播放列表窗口高度。"
+msgstr "播放列表窗口的竖直位置。"
 
 #: ../data/muine.schemas.in.h:25
 msgid "Volume level"
@@ -190,42 +186,15 @@ msgstr "播放列表窗口宽度。"
 
 #: ../data/muine.schemas.in.h:34
 msgid "Your Amazon Dev Tag for fetching album cover art"
-msgstr ""
+msgstr "用于获取专辑封面的 Amazon Dev Tag"
 
 #: ../libmuine/player-gst.c:154
-#, fuzzy
 msgid "Failed to create a GStreamer play object"
-msgstr "创建 GstPlay 对象失败"
+msgstr "创建 GStreamer 播放对象失败"
 
 #: ../libmuine/player-gst.c:161
 msgid "Could not render default GStreamer audio output sink"
-msgstr ""
-
-#: ../libmuine/player-xine.c:289
-#, c-format
-msgid ""
-"Couldn't load the '%s' audio driver\n"
-"Check that the device is not busy."
-msgstr ""
-
-#: ../libmuine/player-xine.c:383 ../libmuine/player-xine.c:388
-#, c-format
-msgid "No plugin available for \"%s\""
-msgstr "没有找到“%s”可用的插件"
-
-#: ../libmuine/player-xine.c:393
-#, c-format
-msgid "Failed playing \"%s\""
-msgstr "播放“%s”失败"
-
-#: ../libmuine/player-xine.c:397
-msgid "Internal error"
-msgstr "内部错误"
-
-#: ../libmuine/player-xine.c:406
-#, c-format
-msgid "Could not play \"%s\""
-msgstr "无法播放“%s”"
+msgstr "无法渲染默认 GStreamer 音频输出槽"
 
 #: ../src/About.cs:32
 msgid "translator-credits"
@@ -250,8 +219,8 @@ msgid "A music player"
 msgstr "音乐播放器"
 
 #: ../src/About.cs:50
-msgid "Jorn Baayen <jbaayen@gnome.org>"
-msgstr "Jorn Baayen <jbaayen@gnome.org>"
+msgid "Jorn Baayen <jorn.baayen@gmail.com>"
+msgstr "Jorn Baayen <jorn.baayen@gmail.com>"
 
 #: ../src/About.cs:51
 msgid "Lee Willis <lee@leewillis.co.uk>"
@@ -363,7 +332,7 @@ msgstr "重复(_E)"
 
 #: ../src/Actions.cs:99
 msgid "Shu_ffle"
-msgstr ""
+msgstr "随机(_F)"
 
 #: ../src/Actions.cs:103
 msgid "_About"
@@ -383,47 +352,33 @@ msgid "Error"
 msgstr "出错"
 
 #: ../src/FileUtils.cs:44
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "Failed to initialize the configuration folder: {0}"
-msgstr ""
-"初始化音频后端失败：\n"
-"{0}\n"
-"\n"
-"正在退出..."
+msgstr "初始化配置文件夹失败：{0}"
 
 #: ../src/FileUtils.cs:47
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "Failed to initialize the temporary files folder: {0}"
-msgstr ""
-"初始化音频后端失败：\n"
-"{0}\n"
-"\n"
-"正在退出..."
+msgstr "初始化临时文件夹失败：{0}"
 
 #: ../src/FileUtils.cs:50
 msgid "Exiting..."
 msgstr "正在退出..."
 
 #: ../src/Global.cs:37
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "Failed to export D-Bus object: {0}"
-msgstr "创建 GstPlay 对象失败"
+msgstr "导出 D-Bus 对象失败：{0}"
 
 #: ../src/Global.cs:40
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "Failed to load the cover database: {0}"
-msgstr ""
-"装入封面数据库失败：{0}\n"
-"\n"
-"正在退出..."
+msgstr "装入封面数据库失败：{0}"
 
 #: ../src/Global.cs:43
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "Failed to load the song database: {0}"
-msgstr ""
-"装入歌曲数据库失败：{0}\n"
-"\n"
-"正在退出..."
+msgstr "装入歌曲数据库失败：{0}"
 
 #: ../src/Global.cs:46
 msgid "Error initializing Muine."
@@ -532,13 +487,8 @@ msgid "Drop an image here to use it as album cover"
 msgstr "将图像托放至此可将其用作专辑封面"
 
 #: ../src/PlaylistWindow.cs:130
-#, fuzzy
 msgid "Failed to initialize the audio backend"
-msgstr ""
-"初始化音频后端失败：\n"
-"{0}\n"
-"\n"
-"正在退出..."
+msgstr "初始化音频后端失败"
 
 #: ../src/PlaylistWindow.cs:133
 #, csharp-format
@@ -555,25 +505,25 @@ msgstr "关闭 {0} 失败："
 msgid "Failed to write {0}:"
 msgstr "写入 {0} 失败："
 
-#: ../src/PlaylistWindow.cs:1092
+#: ../src/PlaylistWindow.cs:1093
 #, csharp-format
 msgid "<b>Playlist</b> (Repeating {0} hour)"
 msgid_plural "<b>Playlist</b> (Repeating {0} hours)"
 msgstr[0] "<b>播放列表</b> (重复 {0} 小时)"
 
-#: ../src/PlaylistWindow.cs:1097
+#: ../src/PlaylistWindow.cs:1098
 #, csharp-format
 msgid "<b>Playlist</b> (Repeating {0} minute)"
 msgid_plural "<b>Playlist</b> (Repeating {0} minutes)"
 msgstr[0] "<b>播放列表</b> (重复 {0} 分钟)"
 
-#: ../src/PlaylistWindow.cs:1102
+#: ../src/PlaylistWindow.cs:1103
 #, csharp-format
 msgid "<b>Playlist</b> ({0} hour remaining)"
 msgid_plural "<b>Playlist</b> ({0} hours remaining)"
 msgstr[0] "<b>播放列表</b> (剩余 {0} 小时)"
 
-#: ../src/PlaylistWindow.cs:1107
+#: ../src/PlaylistWindow.cs:1108
 #, csharp-format
 msgid "<b>Playlist</b> ({0} minute remaining)"
 msgid_plural "<b>Playlist</b> ({0} minutes remaining)"
@@ -615,32 +565,44 @@ msgstr "{0}和其它"
 msgid "{0} and {1}"
 msgstr "{0}和{1}"
 
-#: ../src/VolumeButton.cs:490
+#: ../src/VolumeButton.cs:488
 msgid "Muted"
-msgstr ""
+msgstr "已静音"
 
-#: ../src/VolumeButton.cs:492
+#: ../src/VolumeButton.cs:490
 msgid "Full Volume"
 msgstr "最大音量"
 
-#: ../plugins/TrayIcon.cs:37
+#: ../plugins/TrayIcon.cs:39
 msgid "Muine music player"
 msgstr "Muine 音乐播放器"
 
-#: ../plugins/TrayIcon.cs:42
+#: ../plugins/TrayIcon.cs:44
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
 
-#: ../plugins/TrayIcon.cs:47
+#: ../plugins/TrayIcon.cs:49
 #, csharp-format
 msgid "Now playing: {0}"
 msgstr "正在播放：{0}"
 
-#: ../plugins/TrayIcon.cs:52
+#: ../plugins/TrayIcon.cs:54
 #, csharp-format
 msgid "by {0}"
 msgstr "艺术家 {0}"
+
+#~ msgid "No plugin available for \"%s\""
+#~ msgstr "没有找到“%s”可用的插件"
+
+#~ msgid "Failed playing \"%s\""
+#~ msgstr "播放“%s”失败"
+
+#~ msgid "Internal error"
+#~ msgstr "内部错误"
+
+#~ msgid "Could not play \"%s\""
+#~ msgstr "无法播放“%s”"
 
 #~ msgid "*"
 #~ msgstr "*"
