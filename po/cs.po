@@ -1,17 +1,18 @@
 # Czech translation of muine
 # Copyright (C) 2004, 2005, 2006 muine's COPYRIGHT HOLDER
 # Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the muine package.
+#
 # Miloslav Trmac <mitr@volny.cz>, 2004 - 2006
-# Marek Černocký <marek@manet.cz>, 2009.
+# Marek Černocký <marek@manet.cz>, 2009, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: muine gnome-master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=muine&component=general\n"
-"POT-Creation-Date: 2009-10-18 14:26+0000\n"
-"PO-Revision-Date: 2009-10-15 18:23+0100\n"
+"POT-Creation-Date: 2010-06-17 07:23+0000\n"
+"PO-Revision-Date: 2010-06-28 23:32+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -195,7 +196,7 @@ msgstr "Váš tag vývojáře Amazonu pro stahování obrázků obalů alb"
 
 #: ../libmuine/player-gst.c:154
 msgid "Failed to create a GStreamer play object"
-msgstr "Nemohu vytvořit objekt přehrávání GStreameru"
+msgstr "Nelze vytvořit objekt přehrávání GStreameru"
 
 #: ../libmuine/player-gst.c:161
 msgid "Could not render default GStreamer audio output sink"
@@ -371,17 +372,17 @@ msgstr "Ukončuje se…"
 #: ../src/Global.cs:37
 #, csharp-format
 msgid "Failed to export D-Bus object: {0}"
-msgstr "Nemohu exportovat objekt D-Bus: {0}"
+msgstr "Nelze exportovat objekt D-Bus: {0}"
 
 #: ../src/Global.cs:40
 #, csharp-format
 msgid "Failed to load the cover database: {0}"
-msgstr "Nemohu načíst databázi obálek: {0}"
+msgstr "Nelze načíst databázi přebalů: {0}"
 
 #: ../src/Global.cs:43
 #, csharp-format
 msgid "Failed to load the song database: {0}"
-msgstr "Nemohu načíst databázi skladeb: {0}"
+msgstr "Nelze načíst databázi skladeb: {0}"
 
 #: ../src/Global.cs:46
 msgid "Error initializing Muine."
@@ -398,7 +399,7 @@ msgstr "_Importovat"
 #: ../src/Metadata.cs:32
 #, csharp-format
 msgid "Failed to load metadata: {0}"
-msgstr "Nemohu načíst metadata: {0}"
+msgstr "Nelze načíst metadata: {0}"
 
 #: ../src/OpenDialog.cs:37
 msgid "Open Playlist"
@@ -498,17 +499,17 @@ msgstr "Nepodařilo se inicializovat zvukový server"
 #: ../src/PlaylistWindow.cs:133
 #, csharp-format
 msgid "Failed to read {0}:"
-msgstr "Nemohu číst {0}:"
+msgstr "Nelze číst {0}:"
 
 #: ../src/PlaylistWindow.cs:136
 #, csharp-format
 msgid "Failed to close {0}:"
-msgstr "Nemohu zavřít {0}:"
+msgstr "Nelze zavřít {0}:"
 
 #: ../src/PlaylistWindow.cs:139
 #, csharp-format
 msgid "Failed to write {0}:"
-msgstr "Nemohu zapisovat {0}:"
+msgstr "Nelze zapisovat {0}:"
 
 #: ../src/PlaylistWindow.cs:1093
 #, csharp-format
@@ -586,47 +587,22 @@ msgstr "Ztišeno"
 msgid "Full Volume"
 msgstr "Plná hlasitost"
 
-#: ../plugins/TrayIcon.cs:37
+#: ../plugins/TrayIcon.cs:39
 msgid "Muine music player"
 msgstr "Přehrávač hudby Muine"
 
-#: ../plugins/TrayIcon.cs:42
+#: ../plugins/TrayIcon.cs:44
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
 
-#: ../plugins/TrayIcon.cs:47
+#: ../plugins/TrayIcon.cs:49
 #, csharp-format
 msgid "Now playing: {0}"
 msgstr "Právě se přehrává: {0}"
 
-#: ../plugins/TrayIcon.cs:52
+#: ../plugins/TrayIcon.cs:54
 #, csharp-format
 msgid "by {0}"
 msgstr "od {0}"
-
-#~ msgid ""
-#~ "Couldn't load the '%s' audio driver\n"
-#~ "Check that the device is not busy."
-#~ msgstr ""
-#~ "Nemohu načíst ovladač zvuku '%s'\n"
-#~ "Zkontrolujte, že se zařízení nepoužívá."
-
-#~ msgid "No plugin available for \"%s\""
-#~ msgstr "Pro \"%s\" není k dispozici zásuvný modul"
-
-#~ msgid "Failed playing \"%s\""
-#~ msgstr "Nemohu přehrávat \"%s\""
-
-#~ msgid "Internal error"
-#~ msgstr "Interní chyba"
-
-#~ msgid "Could not play \"%s\""
-#~ msgstr "Nemohu přehrávat \"%s\""
-
-#~ msgid "Hide _Window"
-#~ msgstr "Skrýt _okno"
-
-#~ msgid "Play"
-#~ msgstr "Přehrávat"
 
