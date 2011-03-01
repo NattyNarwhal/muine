@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-01 00:30+0200\n"
-"PO-Revision-Date: 2009-09-01 00:30+0100\n"
+"POT-Creation-Date: 2011-03-01 01:05+0100\n"
+"PO-Revision-Date: 2011-03-01 08:49+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -199,11 +200,11 @@ msgstr "Kunde inte rendera GStreamer-standardutgången för ljudutmatning"
 #: ../src/About.cs:32
 msgid "translator-credits"
 msgstr ""
-"Daniel Nylander\n"
+"Daniel Nylander <po@danielnylander.se>\n"
 "Christian Rose\n"
 "\n"
 "Skicka synpunkter på översättningen till\n"
-"tp-sv@listor.tp-sv.se"
+"<tp-sv@listor.tp-sv.se>."
 
 #: ../src/About.cs:35
 msgid "Muine"
@@ -579,21 +580,21 @@ msgstr "Tyst"
 msgid "Full Volume"
 msgstr "Full volym"
 
-#: ../plugins/TrayIcon.cs:37
+#: ../plugins/TrayIcon.cs:39
 msgid "Muine music player"
 msgstr "Musikspelaren Muine"
 
-#: ../plugins/TrayIcon.cs:42
+#: ../plugins/TrayIcon.cs:44
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
 
-#: ../plugins/TrayIcon.cs:47
+#: ../plugins/TrayIcon.cs:49
 #, csharp-format
 msgid "Now playing: {0}"
 msgstr "Spelar nu: {0}"
 
-#: ../plugins/TrayIcon.cs:52
+#: ../plugins/TrayIcon.cs:54
 #, csharp-format
 msgid "by {0}"
 msgstr "av {0}"
