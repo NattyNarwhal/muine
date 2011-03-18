@@ -1,21 +1,23 @@
 # Hungarian translation of muine.
 # Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the muine package.
-# Laszlo Dvornik <dvornik@gnome.hu>, 2004.
-# Gabor Kelemen <kelemeng@gnome.hu>, 2005, 2006.
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006.
+# György Balló <ballogy at freestart dot hu>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: muine.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-15 05:58+0200\n"
-"PO-Revision-Date: 2006-06-25 00:14+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
-"Language-Team: Hungarian <gnome@gnome.hu>\n"
+"POT-Creation-Date: 2011-03-18 18:39+0100\n"
+"PO-Revision-Date: 2011-02-07 20:52+0100\n"
+"Last-Translator: György Balló <ballogy at freestart dot hu>\n"
+"Language-Team: Hungarian <gnome at fsf dot hu>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:   nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.10.2\n"
 
 #: ../data/glade/AddWindow.glade.h:1 ../src/Actions.cs:62
@@ -30,23 +32,11 @@ msgstr "_Várólista"
 msgid "_Search:"
 msgstr "_Keresés:"
 
-#: ../data/glade/ErrorDialog.glade.h:1
-msgid "Error"
-msgstr "Hiba"
-
-#: ../data/glade/OverwriteDialog.glade.h:1
-msgid "Overwrite File?"
-msgstr "Felülírja a fájlt?"
-
-#: ../data/glade/OverwriteDialog.glade.h:2
-msgid "_Overwrite"
-msgstr "_Felülírás"
-
-#: ../data/glade/PlaylistWindow.glade.h:1 ../src/AddAlbumWindow.cs:41
+#: ../data/glade/PlaylistWindow.glade.h:1 ../src/AddAlbumWindow.cs:42
 msgid "Play Album"
 msgstr "Album lejátszása"
 
-#: ../data/glade/PlaylistWindow.glade.h:2 ../src/AddSongWindow.cs:41
+#: ../data/glade/PlaylistWindow.glade.h:2 ../src/AddSongWindow.cs:42
 msgid "Play Song"
 msgstr "Dal lejátszása"
 
@@ -58,25 +48,25 @@ msgstr "Ugrás"
 msgid "Listen to your music"
 msgstr "Zenehallgatás"
 
-#: ../data/muine.desktop.in.h:2 ../src/PlaylistWindow.cs:68
+#: ../data/muine.desktop.in.h:2 ../src/PlaylistWindow.cs:79
 msgid "Muine Music Player"
 msgstr "Muine zenelejátszó"
 
 #: ../data/muine.schemas.in.h:1
 msgid "\"Add album\" window height"
-msgstr "\"Album hozzáadása\" ablak magassága"
+msgstr "„Album hozzáadása” ablak magassága"
 
 #: ../data/muine.schemas.in.h:2
 msgid "\"Add album\" window width"
-msgstr "\"Album hozzáadása\" ablak szélessége"
+msgstr "„Album hozzáadása” ablak szélessége"
 
 #: ../data/muine.schemas.in.h:3
 msgid "\"Add song\" window height"
-msgstr "\"Dal hozzáadása\" ablak magassága"
+msgstr "„Dal hozzáadása” ablak magassága"
 
 #: ../data/muine.schemas.in.h:4
 msgid "\"Add song\" window width"
-msgstr "\"Dal hozzáadása\" ablak szélessége"
+msgstr "„Dal hozzáadása” ablak szélessége"
 
 #: ../data/muine.schemas.in.h:5
 msgid "Amazon Dev Tag"
@@ -100,151 +90,171 @@ msgstr "Figyelt mappák."
 
 #: ../data/muine.schemas.in.h:10
 msgid "Height of the \"Add album\" window."
-msgstr "Az \"Album hozzáadása\" ablak magassága."
+msgstr "Az „Album hozzáadása” ablak magassága."
 
 #: ../data/muine.schemas.in.h:11
 msgid "Height of the \"Add song\" window."
-msgstr "A \"Dal hozzáadása\" ablak magassága."
+msgstr "A „Dal hozzáadása” ablak magassága."
 
 #: ../data/muine.schemas.in.h:12
 msgid "Height of the playlist window."
 msgstr "A lejátszólista ablak magassága."
 
 #: ../data/muine.schemas.in.h:13
-msgid "Last used folder from \"Import folder\" dialog."
-msgstr "Legutóbb használt mappa a \"Mappa importálása\" párbeszédablakból."
+msgid "Horizontal position of the playlist window."
+msgstr "A lejátszólista ablak vízszintes pozíciója."
 
 #: ../data/muine.schemas.in.h:14
-msgid "Last used folder from the playlist file selectors."
-msgstr "Legutóbb használt mappa a lejátszólista fájlválasztókból."
+msgid "Last used folder from \"Import folder\" dialog."
+msgstr "A legutóbb használt mappa a „Mappa importálása” párbeszédablakból."
 
 #: ../data/muine.schemas.in.h:15
+msgid "Last used folder from the playlist file selectors."
+msgstr "A legutóbb használt mappa a lejátszólista fájlválasztókból."
+
+#: ../data/muine.schemas.in.h:16
+msgid "Only complete albums"
+msgstr "Csak teljes albumok"
+
+#: ../data/muine.schemas.in.h:17
+msgid "Only deal with complete albums in the interface."
+msgstr "Csak teljes albumokkal foglalkozzon a felületen."
+
+#: ../data/muine.schemas.in.h:18
 msgid "Playlist window height"
 msgstr "Lejátszólista ablak magassága"
 
-#: ../data/muine.schemas.in.h:16
+#: ../data/muine.schemas.in.h:19
+msgid "Playlist window horizontal position"
+msgstr "Lejátszólista ablak vízszintes pozíciója"
+
+#: ../data/muine.schemas.in.h:20
+msgid "Playlist window vertical position"
+msgstr "Lejátszólista ablak függőleges pozíciója"
+
+#: ../data/muine.schemas.in.h:21
 msgid "Playlist window width"
 msgstr "Lejátszólista ablak szélessége"
 
-#: ../data/muine.schemas.in.h:17
+#: ../data/muine.schemas.in.h:22
 msgid "Repeat mode"
 msgstr "Ismétlés mód"
 
-#: ../data/muine.schemas.in.h:18
+#: ../data/muine.schemas.in.h:23
+msgid "Show Notifications"
+msgstr "Értesítések megjelenítése"
+
+#: ../data/muine.schemas.in.h:24
+msgid "Vertical position of the playlist window."
+msgstr "A lejátszólista ablak függőleges pozíciója."
+
+#: ../data/muine.schemas.in.h:25
 msgid "Volume level"
 msgstr "Hangerő"
 
-#: ../data/muine.schemas.in.h:19
+#: ../data/muine.schemas.in.h:26
 msgid "Volume level. 0 = lowest, 100 = highest."
 msgstr "Hangerő. 0 = legalacsonyabb, 100 = legmagasabb."
 
-#: ../data/muine.schemas.in.h:20
+#: ../data/muine.schemas.in.h:27
 msgid "Watched folders"
 msgstr "Figyelt mappák"
 
-#: ../data/muine.schemas.in.h:21
+#: ../data/muine.schemas.in.h:28
+msgid "Whether or not the tray icon shows song change notifications"
+msgstr "A tálcaikon megjelenítsen-e számváltási értesítéseket"
+
+#: ../data/muine.schemas.in.h:29
 msgid "Whether or not to enable repeat playlist mode."
 msgstr "Engedélyezve legyen-e a lejátszólista ismétlés mód."
 
-#: ../data/muine.schemas.in.h:22
+#: ../data/muine.schemas.in.h:30
 msgid ""
 "Which Amazon site to use for fetching album images, \"us\", \"uk\", \"de\", "
 "or \"jp\"."
 msgstr ""
-"Melyik Amazon webhely legyen használva az albumképek letöltéséhez: \"us\", "
-"\"uk\", \"de\", vagy \"jp\"."
+"Melyik Amazon webhely legyen használva az albumképek letöltéséhez: „us”, "
+"„uk”, „de”, vagy „jp”."
 
-#: ../data/muine.schemas.in.h:23
+#: ../data/muine.schemas.in.h:31
 msgid "Width of the \"Add album\" window."
-msgstr "Az \"Album hozzáadása\" ablak szélessége."
+msgstr "Az „Album hozzáadása” ablak szélessége."
 
-#: ../data/muine.schemas.in.h:24
+#: ../data/muine.schemas.in.h:32
 msgid "Width of the \"Add song\" window."
-msgstr "A \"Dal hozzáadása\" ablak szélessége."
+msgstr "A „Dal hozzáadása” ablak szélessége."
 
-#: ../data/muine.schemas.in.h:25
+#: ../data/muine.schemas.in.h:33
 msgid "Width of the playlist window."
 msgstr "A lejátszólista ablak szélessége."
 
-#: ../data/muine.schemas.in.h:26
+#: ../data/muine.schemas.in.h:34
 msgid "Your Amazon Dev Tag for fetching album cover art"
 msgstr "Az Ön Amazon Dev címkéje albumborítók letöltéséhez"
 
-#: ../libmuine/player-gst.c:155
+#: ../libmuine/player-gst.c:154
 msgid "Failed to create a GStreamer play object"
 msgstr "Nem sikerült GStreamer-lejátszóobjektumot létrehozni"
 
-#: ../libmuine/player-gst.c:162
+#: ../libmuine/player-gst.c:161
 msgid "Could not render default GStreamer audio output sink"
 msgstr "Az alapértelmezett GStreamer hangkimeneti nyelő nem jeleníthető meg"
 
-#: ../libmuine/player-xine.c:290
-#, c-format
-msgid ""
-"Couldn't load the '%s' audio driver\n"
-"Check that the device is not busy."
-msgstr ""
-"Nem lehet betölteni a(z) '%s' audiomeghajtót\n"
-"Ellenőrizze, hogy az eszköz nem foglalt-e."
-
-#: ../libmuine/player-xine.c:384 ../libmuine/player-xine.c:389
-#, c-format
-msgid "No plugin available for \"%s\""
-msgstr "Bővítmény nem érhető el ehhez: \"%s\""
-
-#: ../libmuine/player-xine.c:394
-#, c-format
-msgid "Failed playing \"%s\""
-msgstr "\"%s\" lejátszása sikertelen"
-
-#: ../libmuine/player-xine.c:398
-msgid "Internal error"
-msgstr "Belső hiba"
-
-#: ../libmuine/player-xine.c:407
-#, c-format
-msgid "Could not play \"%s\""
-msgstr "Nem lehet lejátszani a(z) \"%s\"-t"
-
-#: ../src/About.cs:31
+#: ../src/About.cs:32
 msgid "translator-credits"
 msgstr ""
-"Dvornik László <dvornik@gnome.hu>\n"
-"Kelemen Gábor <kelemeng@gnome.hu>"
+"Dvornik László <dvornik at gnome dot hu>\n"
+"Kelemen Gábor <kelemeng at gnome dot hu>"
 
-#: ../src/About.cs:34
+#: ../src/About.cs:35
 msgid "Muine"
 msgstr "Muine"
 
-#: ../src/About.cs:37
-msgid "Copyright © 2003-2006 Jorn Baayen"
-msgstr "Copyright © 2003-2006 Jorn Baayen"
+#: ../src/About.cs:38
+msgid "Copyright © 2003–2007 Jorn Baayen"
+msgstr "Copyright © 2003–2007 Jorn Baayen"
 
-#: ../src/About.cs:40
+#: ../src/About.cs:39
+msgid "Copyright © 2006–2008 Various contributors"
+msgstr "Copyright © 2006–2008 További közreműködők"
+
+#: ../src/About.cs:43
 msgid "A music player"
 msgstr "Egy zenelejátszó"
 
-#: ../src/About.cs:44
-msgid "Jorn Baayen <jbaayen@gnome.org>"
-msgstr "Jorn Baayen <jbaayen@gnome.org>"
+#: ../src/About.cs:50
+msgid "Jorn Baayen <jorn.baayen@gmail.com>"
+msgstr "Jorn Baayen <jorn.baayen@gmail.com>"
 
-#: ../src/About.cs:45
+#: ../src/About.cs:51
 msgid "Lee Willis <lee@leewillis.co.uk>"
 msgstr "Lee Willis <lee@leewillis.co.uk>"
 
-#: ../src/About.cs:46
+#: ../src/About.cs:52
 msgid "Việt Yên Nguyễn <nguyen@cs.utwente.nl>"
 msgstr "Việt Yên Nguyễn <nguyen@cs.utwente.nl>"
 
-#: ../src/About.cs:47
+#: ../src/About.cs:53
 msgid "Tamara Roberson <tamara.roberson@gmail.com>"
 msgstr "Tamara Roberson <tamara.roberson@gmail.com>"
 
-#: ../src/About.cs:48
+#: ../src/About.cs:54
 msgid "Peter Johanson <peter@peterjohanson.com>"
 msgstr "Peter Johanson <peter@peterjohanson.com>"
 
-#: ../src/About.cs:50
+#: ../src/About.cs:55
+msgid "Wouter Bolsterlee <wbolster@gnome.org>"
+msgstr "Wouter Bolsterlee <wbolster@gnome.org>"
+
+#: ../src/About.cs:56
+msgid "Luis Medinas <lmedinas@gnome.org>"
+msgstr "Luis Medinas <lmedinas@gnome.org>"
+
+#: ../src/About.cs:57
+msgid "Iain Holmes  <iain@gnome.org>"
+msgstr "Iain Holmes  <iain@gnome.org>"
+
+#: ../src/About.cs:59
 msgid "Album covers are provided by amazon.com and musicbrainz.org."
 msgstr "Az albumborítókat az amazon.com és a musicbrainz.org szolgáltatja."
 
@@ -266,23 +276,23 @@ msgstr "_Súgó"
 
 #: ../src/Actions.cs:49
 msgid "_Import Folder..."
-msgstr "Mappa _importálása..."
+msgstr "Mappa _importálása…"
 
 #: ../src/Actions.cs:52
 msgid "_Open..."
-msgstr "_Megnyitás..."
+msgstr "_Megnyitás…"
 
 #: ../src/Actions.cs:55
 msgid "_Save As..."
-msgstr "Men_tés másként..."
+msgstr "Me_ntés másként…"
 
 #: ../src/Actions.cs:58
 msgid "Show _Window"
-msgstr "_Ablak megjelenítése"
+msgstr "Ablak _megjelenítése"
 
 #: ../src/Actions.cs:65
 msgid "P_revious"
-msgstr "_Előző"
+msgstr "Elő_ző"
 
 #: ../src/Actions.cs:68
 msgid "_Next"
@@ -290,7 +300,7 @@ msgstr "_Következő"
 
 #: ../src/Actions.cs:71
 msgid "_Skip to..."
-msgstr "_Ugrás..."
+msgstr "_Ugrás…"
 
 #: ../src/Actions.cs:74
 msgid "Skip _Backwards"
@@ -302,11 +312,11 @@ msgstr "Ugrás _előre"
 
 #: ../src/Actions.cs:81
 msgid "Play _Song..."
-msgstr "Dal le_játszása..."
+msgstr "Dal le_játszása…"
 
 #: ../src/Actions.cs:84
 msgid "Play _Album..."
-msgstr "_Album lejátszása..."
+msgstr "_Album lejátszása…"
 
 #: ../src/Actions.cs:87
 msgid "_Remove Song"
@@ -332,7 +342,7 @@ msgstr "Véletlens_zerű sorrend"
 msgid "_About"
 msgstr "_Névjegy"
 
-#: ../src/AddAlbumWindow.cs:44 ../src/PlaylistWindow.cs:89
+#: ../src/AddAlbumWindow.cs:45 ../src/PlaylistWindow.cs:100
 #, csharp-format
 msgid "Performed by {0}"
 msgstr "Előadó: {0}"
@@ -341,27 +351,23 @@ msgstr "Előadó: {0}"
 msgid "the dj"
 msgstr "a az the dj"
 
+#: ../src/ErrorDialog.cs:77
+msgid "Error"
+msgstr "Hiba"
+
 #: ../src/FileUtils.cs:44
 #, csharp-format
-msgid ""
-"Failed to initialize the configuration folder: {0}\n"
-"\n"
-"Exiting..."
-msgstr ""
-"Nem sikerült inicializálni a konfigurációs mappát: {0}\n"
-"\n"
-"Kilépés..."
+msgid "Failed to initialize the configuration folder: {0}"
+msgstr "Nem sikerült inicializálni a konfigurációs mappát: {0}"
 
 #: ../src/FileUtils.cs:47
 #, csharp-format
-msgid ""
-"Failed to initialize the temporary files folder: {0}\n"
-"\n"
-"Exiting..."
-msgstr ""
-"Nem sikerült inicializálni az átmeneti fájlok mappáját: {0}\n"
-"\n"
-"Kilépés..."
+msgid "Failed to initialize the temporary files folder: {0}"
+msgstr "Nem sikerült inicializálni az átmeneti fájlok mappáját: {0}"
+
+#: ../src/FileUtils.cs:50
+msgid "Exiting..."
+msgstr "Kilépés…"
 
 #: ../src/Global.cs:37
 #, csharp-format
@@ -390,7 +396,7 @@ msgstr "Mappa importálása"
 msgid "_Import"
 msgstr "_Importálás"
 
-#: ../src/Metadata.cs:34
+#: ../src/Metadata.cs:32
 #, csharp-format
 msgid "Failed to load metadata: {0}"
 msgstr "Nem sikerült betölteni a metaadatot: {0}"
@@ -404,11 +410,15 @@ msgid "Playlist files"
 msgstr "Lejátszólista-fájlok"
 
 #: ../src/OverwriteDialog.cs:34
-#, csharp-format
-msgid "Overwrite \"{0}\"?"
-msgstr "Felülírja a(z) \"{0}\"-t?"
+msgid "Overwrite File?"
+msgstr "Felülírja a fájlt?"
 
 #: ../src/OverwriteDialog.cs:37
+#, csharp-format
+msgid "Overwrite \"{0}\"?"
+msgstr "Felülírja a(z) „{0}”-t?"
+
+#: ../src/OverwriteDialog.cs:40
 msgid ""
 "A file with this name already exists. If you choose to overwrite this file, "
 "the contents will be lost."
@@ -416,114 +426,113 @@ msgstr ""
 "Már létezik ilyen nevű fájl. Ha a fájl felülírását választja, akkor annak "
 "tartalma el fog veszni."
 
+#: ../src/OverwriteDialog.cs:74
+msgid "_Overwrite"
+msgstr "_Felülírás"
+
 #: ../src/Player.cs:39
 msgid "Audio backend error:"
 msgstr "Audioháttér hiba:"
 
-#: ../src/PlaylistWindow.cs:71
+#: ../src/PlaylistWindow.cs:82
 msgid "Playlist.m3u"
 msgstr "Lejátszólista.m3u"
 
-#: ../src/PlaylistWindow.cs:74
+#: ../src/PlaylistWindow.cs:85
 msgid "<b>Playlist</b>"
 msgstr "<b>Lejátszólista</b>"
 
-#: ../src/PlaylistWindow.cs:77
+#: ../src/PlaylistWindow.cs:88
 msgid "<b>Playlist</b> (Repeating)"
 msgstr "<b>Lejátszólista</b> (Ismétlés)"
 
-#: ../src/PlaylistWindow.cs:80
+#: ../src/PlaylistWindow.cs:91
 msgid "<b>Playlist</b> (Less than one minute remaining)"
 msgstr "<b>Lejátszólista</b> (Kevesebb mint egy perc van hátra)"
 
-#: ../src/PlaylistWindow.cs:83
+#: ../src/PlaylistWindow.cs:94
 #, csharp-format
 msgid "From \"{0}\""
-msgstr "Erről: \"{0}\""
+msgstr "Erről: „{0}”"
 
-#: ../src/PlaylistWindow.cs:86
+#: ../src/PlaylistWindow.cs:97
 msgid "Album unknown"
 msgstr "Ismeretlen album"
 
-#: ../src/PlaylistWindow.cs:93
+#: ../src/PlaylistWindow.cs:104
 #, csharp-format
 msgid "{0} - Muine Music Player"
 msgstr "{0} - Muine zenelejátszó"
 
-#: ../src/PlaylistWindow.cs:97
+#: ../src/PlaylistWindow.cs:108
 msgid "Switch music playback on or off"
 msgstr "Zenelejátszás indítása/leállítása"
 
-#: ../src/PlaylistWindow.cs:100
+#: ../src/PlaylistWindow.cs:111
 msgid "Play the previous song"
 msgstr "Előző dal lejátszása"
 
-#: ../src/PlaylistWindow.cs:103
+#: ../src/PlaylistWindow.cs:114
 msgid "Play the next song"
 msgstr "Következő dal lejátszása"
 
-#: ../src/PlaylistWindow.cs:106
+#: ../src/PlaylistWindow.cs:117
 msgid "Add an album to the playlist"
 msgstr "Album hozzáadása a lejátszólistához"
 
-#: ../src/PlaylistWindow.cs:109
+#: ../src/PlaylistWindow.cs:120
 msgid "Add a song to the playlist"
 msgstr "Dal hozzáadása a lejátszólistához"
 
-#: ../src/PlaylistWindow.cs:112
+#: ../src/PlaylistWindow.cs:123
 msgid "Change the volume level"
 msgstr "Hangerő megváltoztatása"
 
-#: ../src/PlaylistWindow.cs:115
+#: ../src/PlaylistWindow.cs:126
 msgid "Drop an image here to use it as album cover"
 msgstr "Ejtsen ide egy albumborítóként használandó képet"
 
-#: ../src/PlaylistWindow.cs:119
-#, csharp-format
-msgid ""
-"Failed to initialize the audio backend:\n"
-"{0}"
-msgstr ""
-"Nem sikerült inicializálni az audiohátteret:\n"
-"{0}"
+#: ../src/PlaylistWindow.cs:130
+msgid "Failed to initialize the audio backend"
+msgstr "Nem sikerült inicializálni az audiohátteret"
 
-#: ../src/PlaylistWindow.cs:122
+#: ../src/PlaylistWindow.cs:133
 #, csharp-format
 msgid "Failed to read {0}:"
 msgstr "Nem sikerült olvasni a(z) {0}-t:"
 
-#: ../src/PlaylistWindow.cs:125
+#: ../src/PlaylistWindow.cs:136
 #, csharp-format
 msgid "Failed to close {0}:"
 msgstr "Nem sikerült bezárni a(z) {0}-t:"
 
-#: ../src/PlaylistWindow.cs:128
+#: ../src/PlaylistWindow.cs:139
 #, csharp-format
 msgid "Failed to write {0}:"
 msgstr "Nem sikerült írni a(z) {0}-t:"
 
-#: ../src/PlaylistWindow.cs:1029
+#: ../src/PlaylistWindow.cs:1093
 #, csharp-format
 msgid "<b>Playlist</b> (Repeating {0} hour)"
 msgid_plural "<b>Playlist</b> (Repeating {0} hours)"
 msgstr[0] "<b>Lejátszólista</b> ({0} óra ismétlése)"
 msgstr[1] "<b>Lejátszólista</b> ({0} óra ismétlése)"
 
-#: ../src/PlaylistWindow.cs:1034
+#: ../src/PlaylistWindow.cs:1098
 #, csharp-format
 msgid "<b>Playlist</b> (Repeating {0} minute)"
 msgid_plural "<b>Playlist</b> (Repeating {0} minutes)"
 msgstr[0] "<b>Lejátszólista</b> ({0} perc ismétlése)"
 msgstr[1] "<b>Lejátszólista</b> ({0} perc ismétlése)"
 
-#: ../src/PlaylistWindow.cs:1039
+#: ../src/PlaylistWindow.cs:1103
 #, csharp-format
 msgid "<b>Playlist</b> ({0} hour remaining)"
 msgid_plural "<b>Playlist</b> ({0} hours remaining)"
 msgstr[0] "<b>Lejátszólista</b> ({0} óra van hátra)"
 msgstr[1] "<b>Lejátszólista</b> ({0} óra van hátra)"
 
-#: ../src/PlaylistWindow.cs:1044
+#: ../src/PlaylistWindow.cs:1108
 #, csharp-format
 msgid "<b>Playlist</b> ({0} minute remaining)"
 msgid_plural "<b>Playlist</b> ({0} minutes remaining)"
@@ -538,7 +547,7 @@ msgstr "Hiba a(z) {0} bővítmény betöltése közben: {1}"
 #: ../src/ProgressWindow.cs:33
 #, csharp-format
 msgid "Importing \"{0}\""
-msgstr "\"{0}\" importálása"
+msgstr "„{0}” importálása"
 
 #: ../src/ProgressWindow.cs:36
 msgid "Loading:"
@@ -566,11 +575,48 @@ msgstr "{0} és a többi"
 msgid "{0} and {1}"
 msgstr "{0} és {1}"
 
-#: ../plugins/TrayIcon.cs:35
+#: ../src/VolumeButton.cs:488
+msgid "Muted"
+msgstr "Elnémítva"
+
+#: ../src/VolumeButton.cs:490
+msgid "Full Volume"
+msgstr "Teljes hangerő"
+
+#: ../plugins/TrayIcon.cs:39
 msgid "Muine music player"
 msgstr "Muine zenelejátszó"
 
-#: ../plugins/TrayIcon.cs:40
+#: ../plugins/TrayIcon.cs:44
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
+
+#: ../plugins/TrayIcon.cs:49
+#, csharp-format
+msgid "Now playing: {0}"
+msgstr "Most játszott: {0}"
+
+#: ../plugins/TrayIcon.cs:54
+#, csharp-format
+msgid "by {0}"
+msgstr "előadó: {0}"
+
+#~ msgid ""
+#~ "Couldn't load the '%s' audio driver\n"
+#~ "Check that the device is not busy."
+#~ msgstr ""
+#~ "Nem lehet betölteni a(z) '%s' audiomeghajtót\n"
+#~ "Ellenőrizze, hogy az eszköz nem foglalt-e."
+
+#~ msgid "No plugin available for \"%s\""
+#~ msgstr "Bővítmény nem érhető el ehhez: \"%s\""
+
+#~ msgid "Failed playing \"%s\""
+#~ msgstr "\"%s\" lejátszása sikertelen"
+
+#~ msgid "Internal error"
+#~ msgstr "Belső hiba"
+
+#~ msgid "Could not play \"%s\""
+#~ msgstr "Nem lehet lejátszani a(z) \"%s\"-t"
