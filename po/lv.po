@@ -1,22 +1,24 @@
 # translation of muine.HEAD.po to Latvian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Raivis Dejus <orvils@gmail.com>, 2006.
 #
+# Raivis Dejus <orvils@gmail.com>, 2006.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: muine.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-07-24 16:41+0300\n"
-"PO-Revision-Date: 2006-07-21 13:50+0200\n"
-"Last-Translator: Ingrīda Irguļska <Ingrida.Irgulska@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=muine&component=general\n"
+"POT-Creation-Date: 2009-08-29 18:34+0000\n"
+"PO-Revision-Date: 2011-04-18 23:34+0300\n"
+"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <locale@laka.lv>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: Lokalize 1.1\n"
 
 #: ../data/glade/AddWindow.glade.h:1 ../src/Actions.cs:62
 msgid "_Play"
@@ -30,23 +32,11 @@ msgstr "_Rinda"
 msgid "_Search:"
 msgstr "_Meklēt:"
 
-#: ../data/glade/ErrorDialog.glade.h:1
-msgid "Error"
-msgstr "Kļūda"
-
-#: ../data/glade/OverwriteDialog.glade.h:1
-msgid "Overwrite File?"
-msgstr "Pārrakstīt failu?"
-
-#: ../data/glade/OverwriteDialog.glade.h:2
-msgid "_Overwrite"
-msgstr "_Pārrakstīt"
-
-#: ../data/glade/PlaylistWindow.glade.h:1 ../src/AddAlbumWindow.cs:41
+#: ../data/glade/PlaylistWindow.glade.h:1 ../src/AddAlbumWindow.cs:42
 msgid "Play Album"
 msgstr "Atskaņot albumu"
 
-#: ../data/glade/PlaylistWindow.glade.h:2 ../src/AddSongWindow.cs:41
+#: ../data/glade/PlaylistWindow.glade.h:2 ../src/AddSongWindow.cs:42
 msgid "Play Song"
 msgstr "Atskaņot dziesmu"
 
@@ -58,7 +48,7 @@ msgstr "Pārlekt uz"
 msgid "Listen to your music"
 msgstr "Klausīties savu mūziku"
 
-#: ../data/muine.desktop.in.h:2 ../src/PlaylistWindow.cs:68
+#: ../data/muine.desktop.in.h:2 ../src/PlaylistWindow.cs:79
 msgid "Muine Music Player"
 msgstr "Muine mūzikas atskaņotājs"
 
@@ -92,7 +82,7 @@ msgstr "Noklusētā ieviešanas mape"
 
 #: ../data/muine.schemas.in.h:8
 msgid "Default playlist folder"
-msgstr "Atskaņojumu saraksta noklusētā mape"
+msgstr "Repertuāra noklusētā mape"
 
 #: ../data/muine.schemas.in.h:9
 msgid "Folders that are monitored for changes."
@@ -108,45 +98,81 @@ msgstr "Loga \"Pievienot dziesmu\" augstums."
 
 #: ../data/muine.schemas.in.h:12
 msgid "Height of the playlist window."
-msgstr "Atskaņojumu saraksta loga augstums."
+msgstr "Repertuāra loga augstums."
 
 #: ../data/muine.schemas.in.h:13
+#| msgid "Height of the playlist window."
+msgid "Horizontal position of the playlist window."
+msgstr "Repertuāra loga horizontālais novietojums."
+
+#: ../data/muine.schemas.in.h:14
 msgid "Last used folder from \"Import folder\" dialog."
 msgstr "Pedējā izmantotā mape no \"Ieviest mapi\" dialoga."
 
-#: ../data/muine.schemas.in.h:14
-msgid "Last used folder from the playlist file selectors."
-msgstr "Pedējā izmantotā mape no atskaņojumu saraksta failu atlasītāja."
-
 #: ../data/muine.schemas.in.h:15
-msgid "Playlist window height"
-msgstr "Atskaņojumu saraksta loga augstums"
+msgid "Last used folder from the playlist file selectors."
+msgstr "Pēdējā izmantotā mape no repertuāra failu selektora."
 
 #: ../data/muine.schemas.in.h:16
-msgid "Playlist window width"
-msgstr "Atskaņojumu saraksta loga platums"
+msgid "Only complete albums"
+msgstr "Tikai pilnīgos albumus"
 
 #: ../data/muine.schemas.in.h:17
+msgid "Only deal with complete albums in the interface."
+msgstr "Saskarnē darboties tikai ar pilniem albumiem."
+
+#: ../data/muine.schemas.in.h:18
+msgid "Playlist window height"
+msgstr "Repertuāra loga augstums"
+
+#: ../data/muine.schemas.in.h:19
+#| msgid "Playlist window height"
+msgid "Playlist window horizontal position"
+msgstr "Repertuāra loga horizontālais novietojums"
+
+#: ../data/muine.schemas.in.h:20
+#| msgid "Playlist window height"
+msgid "Playlist window vertical position"
+msgstr "Repertuāra loga vertikālais novietojums"
+
+#: ../data/muine.schemas.in.h:21
+msgid "Playlist window width"
+msgstr "Repertuāra loga platums"
+
+#: ../data/muine.schemas.in.h:22
 msgid "Repeat mode"
 msgstr "Atkārtošanas režīms"
 
-#: ../data/muine.schemas.in.h:18
+#: ../data/muine.schemas.in.h:23
+msgid "Show Notifications"
+msgstr "Rādīt paziņojumus"
+
+#: ../data/muine.schemas.in.h:24
+#| msgid "Height of the playlist window."
+msgid "Vertical position of the playlist window."
+msgstr "Repertuāra loga vertikālais novietojums."
+
+#: ../data/muine.schemas.in.h:25
 msgid "Volume level"
 msgstr "Skaļuma līmenis"
 
-#: ../data/muine.schemas.in.h:19
+#: ../data/muine.schemas.in.h:26
 msgid "Volume level. 0 = lowest, 100 = highest."
 msgstr "Skaļuma līmenis. 0 = zemākais ,100 = augstākais."
 
-#: ../data/muine.schemas.in.h:20
+#: ../data/muine.schemas.in.h:27
 msgid "Watched folders"
 msgstr "Skatītās mapes"
 
-#: ../data/muine.schemas.in.h:21
-msgid "Whether or not to enable repeat playlist mode."
-msgstr "Aktivizēt vai nē, atskaņojumu saraksta atkārtošanas režīmu."
+#: ../data/muine.schemas.in.h:28
+msgid "Whether or not the tray icon shows song change notifications"
+msgstr "Vai sistēmas paplātes ikona rāda dziesmu maiņas paziņojumus"
 
-#: ../data/muine.schemas.in.h:22
+#: ../data/muine.schemas.in.h:29
+msgid "Whether or not to enable repeat playlist mode."
+msgstr "Vai aktivēt repertuāra atkārtošanas režīmu."
+
+#: ../data/muine.schemas.in.h:30
 msgid ""
 "Which Amazon site to use for fetching album images, \"us\", \"uk\", \"de\", "
 "or \"jp\"."
@@ -154,95 +180,86 @@ msgstr ""
 "Kuru Amazon vietni izmantot albuma attēlu ienešanai, \"us\", \"uk\", \"de\", "
 "or \"jp\"."
 
-#: ../data/muine.schemas.in.h:23
+#: ../data/muine.schemas.in.h:31
 msgid "Width of the \"Add album\" window."
 msgstr "\"Pievienot albumu\" loga platums."
 
-#: ../data/muine.schemas.in.h:24
+#: ../data/muine.schemas.in.h:32
 msgid "Width of the \"Add song\" window."
 msgstr "\"Pievienot dziesmu\" loga platums."
 
-#: ../data/muine.schemas.in.h:25
+#: ../data/muine.schemas.in.h:33
 msgid "Width of the playlist window."
-msgstr "Atskaņojumu saraksta loga platums."
+msgstr "Repertuāra loga platums."
 
-#: ../data/muine.schemas.in.h:26
+#: ../data/muine.schemas.in.h:34
 msgid "Your Amazon Dev Tag for fetching album cover art"
 msgstr "Jūsu Amazon Dev Tag albuma vāku mākslas ienešanai"
 
-#: ../libmuine/player-gst.c:155
+#: ../libmuine/player-gst.c:154
 msgid "Failed to create a GStreamer play object"
 msgstr "Neizdevās izveidot GStreamer atskaņošanas objektu"
 
-#: ../libmuine/player-gst.c:162
+#: ../libmuine/player-gst.c:161
 msgid "Could not render default GStreamer audio output sink"
 msgstr "Neizdevās sniegt noklusēto GStreamer audio izvades saņēmēju"
 
-#: ../libmuine/player-xine.c:290
-#, c-format
-msgid ""
-"Couldn't load the '%s' audio driver\n"
-"Check that the device is not busy."
-msgstr ""
-"Ielādēt '%s' audio dzini neizdevās\n"
-"Pārbaudiet vai ierīce nav pārslogota."
-
-#: ../libmuine/player-xine.c:384 ../libmuine/player-xine.c:389
-#, c-format
-msgid "No plugin available for \"%s\""
-msgstr "Nav pieejams spraudnis priekš \"%s\""
-
-#: ../libmuine/player-xine.c:394
-#, c-format
-msgid "Failed playing \"%s\""
-msgstr " \"%s\" atskaņošana neizdevās"
-
-#: ../libmuine/player-xine.c:398
-msgid "Internal error"
-msgstr "Iekšēja kļūda"
-
-#: ../libmuine/player-xine.c:407
-#, c-format
-msgid "Could not play \"%s\""
-msgstr "Neizdevās atskaņot  \"%s\""
-
-#: ../src/About.cs:31
+#: ../src/About.cs:32
 msgid "translator-credits"
 msgstr "Paldies_tulkotājiemСтанислав Мищенко <krigan@balticom.lv>"
 
-#: ../src/About.cs:34
+#: ../src/About.cs:35
 msgid "Muine"
 msgstr "Muine"
 
-#: ../src/About.cs:37
-msgid "Copyright © 2003-2006 Jorn Baayen"
-msgstr "Copyright © 2003-2006 Jorn Baayen"
+#: ../src/About.cs:38
+#| msgid "Copyright © 2003-2006 Jorn Baayen"
+msgid "Copyright © 2003–2007 Jorn Baayen"
+msgstr "Autortiesības © 2003-2007 Jorn Baayen"
 
-#: ../src/About.cs:40
+#: ../src/About.cs:39
+msgid "Copyright © 2006–2008 Various contributors"
+msgstr "Autortiesības © 2006–2008 dažādi veidotāji"
+
+#: ../src/About.cs:43
 msgid "A music player"
 msgstr "Mūzikas atskaņotājs"
 
-#: ../src/About.cs:44
-msgid "Jorn Baayen <jbaayen@gnome.org>"
-msgstr "Jorn Baayen <jbaayen@gnome.org>"
+#: ../src/About.cs:50
+#| msgid "Jorn Baayen <jbaayen@gnome.org>"
+msgid "Jorn Baayen <jorn.baayen@gmail.com>"
+msgstr "Jorn Baayen <jorn.baayen@gmail.com>"
 
-#: ../src/About.cs:45
+#: ../src/About.cs:51
 msgid "Lee Willis <lee@leewillis.co.uk>"
 msgstr "Lee Willis <lee@leewillis.co.uk>"
 
-#: ../src/About.cs:46
+#: ../src/About.cs:52
 msgid "Việt Yên Nguyễn <nguyen@cs.utwente.nl>"
 msgstr "Việt Yên Nguyễn <nguyen@cs.utwente.nl>"
 
-#: ../src/About.cs:47
+#: ../src/About.cs:53
 msgid "Tamara Roberson <tamara.roberson@gmail.com>"
 msgstr "Tamara Roberson <tamara.roberson@gmail.com>"
 
-#: ../src/About.cs:48
+#: ../src/About.cs:54
 msgid "Peter Johanson <peter@peterjohanson.com>"
 msgstr "Peter Johanson <peter@peterjohanson.com>"
 
-#: ../src/About.cs:50
+#: ../src/About.cs:55
+msgid "Wouter Bolsterlee <wbolster@gnome.org>"
+msgstr "Wouter Bolsterlee <wbolster@gnome.org>"
+
+#: ../src/About.cs:56
+msgid "Luis Medinas <lmedinas@gnome.org>"
+msgstr "Luis Medinas <lmedinas@gnome.org>"
+
+#: ../src/About.cs:57
+#| msgid "Jorn Baayen <jbaayen@gnome.org>"
+msgid "Iain Holmes  <iain@gnome.org>"
+msgstr "Iain Holmes  <iain@gnome.org>"
+
+#: ../src/About.cs:59
 msgid "Album covers are provided by amazon.com and musicbrainz.org."
 msgstr "Albuma vākus piegādā amazon.com and musicbrainz.org."
 
@@ -256,7 +273,7 @@ msgstr "_Dziesma"
 
 #: ../src/Actions.cs:42
 msgid "_Playlist"
-msgstr "_Atskaņojumu saraksts"
+msgstr "Re_pertuārs"
 
 #: ../src/Actions.cs:45
 msgid "_Help"
@@ -330,7 +347,7 @@ msgstr "Jau_kt"
 msgid "_About"
 msgstr "_Par"
 
-#: ../src/AddAlbumWindow.cs:44 ../src/PlaylistWindow.cs:89
+#: ../src/AddAlbumWindow.cs:45 ../src/PlaylistWindow.cs:100
 #, csharp-format
 msgid "Performed by {0}"
 msgstr "Izpilda {0}"
@@ -339,27 +356,31 @@ msgstr "Izpilda {0}"
 msgid "the dj"
 msgstr "Dj"
 
+#: ../src/ErrorDialog.cs:77
+msgid "Error"
+msgstr "Kļūda"
+
 #: ../src/FileUtils.cs:44
 #, csharp-format
-msgid ""
-"Failed to initialize the configuration folder: {0}\n"
-"\n"
-"Exiting..."
-msgstr ""
-"Neizdevās inicializēt konfigurācijas mapi: {0}\n"
-"\n"
-"Iziešana..."
+#| msgid ""
+#| "Failed to initialize the configuration folder: {0}\n"
+#| "\n"
+#| "Exiting..."
+msgid "Failed to initialize the configuration folder: {0}"
+msgstr "Neizdevās inicializēt konfigurācijas mapi: {0}"
 
 #: ../src/FileUtils.cs:47
 #, csharp-format
-msgid ""
-"Failed to initialize the temporary files folder: {0}\n"
-"\n"
-"Exiting..."
-msgstr ""
-"Neizdevās inicializēt pagaidu failu mapi: {0}\n"
-"\n"
-"Iziešana..."
+#| msgid ""
+#| "Failed to initialize the temporary files folder: {0}\n"
+#| "\n"
+#| "Exiting..."
+msgid "Failed to initialize the temporary files folder: {0}"
+msgstr "Neizdevās inicializēt pagaidu failu mapi: {0}"
+
+#: ../src/FileUtils.cs:50
+msgid "Exiting..."
+msgstr "Iziet..."
 
 #: ../src/Global.cs:37
 #, csharp-format
@@ -388,25 +409,29 @@ msgstr "Ieviest mapi"
 msgid "_Import"
 msgstr "_Ieviest"
 
-#: ../src/Metadata.cs:34
+#: ../src/Metadata.cs:32
 #, csharp-format
 msgid "Failed to load metadata: {0}"
 msgstr "Neizdevās ielādēt metadatus: {0}"
 
 #: ../src/OpenDialog.cs:37
 msgid "Open Playlist"
-msgstr "Atvērt atskaņojumu sarakstu"
+msgstr "Atvērt repertuāru"
 
 #: ../src/OpenDialog.cs:40
 msgid "Playlist files"
-msgstr "Atskaņojumu saraksta faili"
+msgstr "Repertuāra faili"
 
 #: ../src/OverwriteDialog.cs:34
+msgid "Overwrite File?"
+msgstr "Pārrakstīt failu?"
+
+#: ../src/OverwriteDialog.cs:37
 #, csharp-format
 msgid "Overwrite \"{0}\"?"
 msgstr "Pārrakstīt \"{0}\"?"
 
-#: ../src/OverwriteDialog.cs:37
+#: ../src/OverwriteDialog.cs:40
 msgid ""
 "A file with this name already exists. If you choose to overwrite this file, "
 "the contents will be lost."
@@ -414,93 +439,95 @@ msgstr ""
 "Fails ar šādu nosaukumu jau eksistē. Ja jūs izvēlaties šo failu pārrakstīt, "
 "tā saturs tiks zaudēts."
 
+#: ../src/OverwriteDialog.cs:74
+msgid "_Overwrite"
+msgstr "_Pārrakstīt"
+
 #: ../src/Player.cs:39
 msgid "Audio backend error:"
 msgstr "Audio aizmugures kļūda:"
 
-#: ../src/PlaylistWindow.cs:71
+#: ../src/PlaylistWindow.cs:82
 msgid "Playlist.m3u"
-msgstr "Atskaņojumu saraksts.m3u"
+msgstr "Repertuāra.m3u"
 
-#: ../src/PlaylistWindow.cs:74
+#: ../src/PlaylistWindow.cs:85
 msgid "<b>Playlist</b>"
-msgstr "<b>Atskaņojumu saraksts</b>"
+msgstr "<b>Repertuārs</b>"
 
-#: ../src/PlaylistWindow.cs:77
+#: ../src/PlaylistWindow.cs:88
 msgid "<b>Playlist</b> (Repeating)"
-msgstr "<b>Atskaņojumu saraksts</b> (Atkārto)"
+msgstr "<b>Repertuārs</b> (Atkārto)"
 
-#: ../src/PlaylistWindow.cs:80
+#: ../src/PlaylistWindow.cs:91
 msgid "<b>Playlist</b> (Less than one minute remaining)"
-msgstr "<b>Atskaņojumu saraksts</b> (Māzāk par vienu minūti atlicis)"
+msgstr "<b>Repertuārs</b> (Atlikusi mazāk kā viena minūte)"
 
-#: ../src/PlaylistWindow.cs:83
+#: ../src/PlaylistWindow.cs:94
 #, csharp-format
 msgid "From \"{0}\""
 msgstr "No \"{0}\""
 
-#: ../src/PlaylistWindow.cs:86
+#: ../src/PlaylistWindow.cs:97
 msgid "Album unknown"
 msgstr "Nepazīstams albums "
 
-#: ../src/PlaylistWindow.cs:93
+#: ../src/PlaylistWindow.cs:104
 #, csharp-format
 msgid "{0} - Muine Music Player"
 msgstr "{0} - Muine Mūzikas atskaņotājs"
 
-#: ../src/PlaylistWindow.cs:97
+#: ../src/PlaylistWindow.cs:108
 msgid "Switch music playback on or off"
 msgstr "Pārslēgt mūzikas atskaņošanu, ieslēgt vai izslēgt"
 
-#: ../src/PlaylistWindow.cs:100
+#: ../src/PlaylistWindow.cs:111
 msgid "Play the previous song"
 msgstr "Atskaņot iepriekšējo dziesmu"
 
-#: ../src/PlaylistWindow.cs:103
+#: ../src/PlaylistWindow.cs:114
 msgid "Play the next song"
 msgstr "Atskaņot nākamo dziesmu"
 
-#: ../src/PlaylistWindow.cs:106
+#: ../src/PlaylistWindow.cs:117
 msgid "Add an album to the playlist"
-msgstr "Pievienot albumu atskaņojumu sarakstam"
+msgstr "Pievienot albumu repertuāram"
 
-#: ../src/PlaylistWindow.cs:109
+#: ../src/PlaylistWindow.cs:120
 msgid "Add a song to the playlist"
-msgstr "Pievienot dziesmu atskaņojumu sarakstam"
+msgstr "Pievienot dziesmu repertuāram"
 
-#: ../src/PlaylistWindow.cs:112
+#: ../src/PlaylistWindow.cs:123
 msgid "Change the volume level"
 msgstr "Mainīt skaļuma līmeni"
 
-#: ../src/PlaylistWindow.cs:115
+#: ../src/PlaylistWindow.cs:126
 msgid "Drop an image here to use it as album cover"
 msgstr "Iemest attēlu te, lai izmantot to kā albuma vāku"
 
-#: ../src/PlaylistWindow.cs:119
-#, csharp-format
-msgid ""
-"Failed to initialize the audio backend:\n"
-"{0}"
-msgstr ""
-"Neizdevās inicializēt audio aizmuguri:\n"
-"{0}"
+#: ../src/PlaylistWindow.cs:130
+#| msgid ""
+#| "Failed to initialize the audio backend:\n"
+#| "{0}"
+msgid "Failed to initialize the audio backend"
+msgstr "Neizdevās inicializēt audio aizmuguri"
 
-#: ../src/PlaylistWindow.cs:122
+#: ../src/PlaylistWindow.cs:133
 #, csharp-format
 msgid "Failed to read {0}:"
 msgstr "Neizdevās nolasīt {0}:"
 
-#: ../src/PlaylistWindow.cs:125
+#: ../src/PlaylistWindow.cs:136
 #, csharp-format
 msgid "Failed to close {0}:"
 msgstr "Neizdevās aizvērt {0}:"
 
-#: ../src/PlaylistWindow.cs:128
+#: ../src/PlaylistWindow.cs:139
 #, csharp-format
 msgid "Failed to write {0}:"
 msgstr "Neizdevās rakstīt {0}:"
 
-#: ../src/PlaylistWindow.cs:1029
+#: ../src/PlaylistWindow.cs:1093
 #, csharp-format
 msgid "<b>Playlist</b> (Repeating {0} hour)"
 msgid_plural "<b>Playlist</b> (Repeating {0} hours)"
@@ -508,7 +535,7 @@ msgstr[0] "<b>Repertuārs</b> (Atkārto {0} stundu)"
 msgstr[1] "<b>Repertuārs</b> (Atkārto {0} stundas)"
 msgstr[2] "<b>Repertuārs</b> (Atkārto {0} stundu)"
 
-#: ../src/PlaylistWindow.cs:1034
+#: ../src/PlaylistWindow.cs:1098
 #, csharp-format
 msgid "<b>Playlist</b> (Repeating {0} minute)"
 msgid_plural "<b>Playlist</b> (Repeating {0} minutes)"
@@ -516,7 +543,7 @@ msgstr[0] "<b>Repertuārs</b> (Atkārto {0} minūti))"
 msgstr[1] "<b>Repertuārs</b> (Atkārto {0} minūtes)"
 msgstr[2] "<b>Repertuārs</b> (Atkārto {0} minūti)"
 
-#: ../src/PlaylistWindow.cs:1039
+#: ../src/PlaylistWindow.cs:1103
 #, csharp-format
 msgid "<b>Playlist</b> ({0} hour remaining)"
 msgid_plural "<b>Playlist</b> ({0} hours remaining)"
@@ -524,7 +551,7 @@ msgstr[0] "<b>Repertuārs</b> (Atlikusi {0} stunda)"
 msgstr[1] "<b>Repertuārs</b> (Atlikušas {0} stundas)"
 msgstr[2] "<b>Repertuārs</b> (Atlikusi {0} stunda)"
 
-#: ../src/PlaylistWindow.cs:1044
+#: ../src/PlaylistWindow.cs:1108
 #, csharp-format
 msgid "<b>Playlist</b> ({0} minute remaining)"
 msgid_plural "<b>Playlist</b> ({0} minutes remaining)"
@@ -548,7 +575,7 @@ msgstr "Ielādēšana:"
 
 #: ../src/SaveDialog.cs:37
 msgid "Save Playlist"
-msgstr "Saglabāt atskaņojumu sarakstu"
+msgstr "Saglabāt repertuāru"
 
 #: ../src/SaveDialog.cs:40
 msgid "Untitled"
@@ -568,11 +595,49 @@ msgstr "{0} un citi"
 msgid "{0} and {1}"
 msgstr "{0} un {1}"
 
-#: ../plugins/TrayIcon.cs:35
+#: ../src/VolumeButton.cs:488
+#| msgid "Muine"
+msgid "Muted"
+msgstr "Apklusināts"
+
+#: ../src/VolumeButton.cs:490
+msgid "Full Volume"
+msgstr "Pilns skaļums"
+
+#: ../plugins/TrayIcon.cs:37
 msgid "Muine music player"
 msgstr "Muine mūzikas atskaņotājs"
 
-#: ../plugins/TrayIcon.cs:40
+#: ../plugins/TrayIcon.cs:42
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
+
+#: ../plugins/TrayIcon.cs:47
+#, csharp-format
+msgid "Now playing: {0}"
+msgstr "Tagad atskaņo: {0}"
+
+#: ../plugins/TrayIcon.cs:52
+#, csharp-format
+msgid "by {0}"
+msgstr "izpilda {0}"
+
+#~ msgid ""
+#~ "Couldn't load the '%s' audio driver\n"
+#~ "Check that the device is not busy."
+#~ msgstr ""
+#~ "Ielādēt '%s' audio dzini neizdevās\n"
+#~ "Pārbaudiet vai ierīce nav pārslogota."
+
+#~ msgid "No plugin available for \"%s\""
+#~ msgstr "Nav pieejams spraudnis priekš \"%s\""
+
+#~ msgid "Failed playing \"%s\""
+#~ msgstr " \"%s\" atskaņošana neizdevās"
+
+#~ msgid "Internal error"
+#~ msgstr "Iekšēja kļūda"
+
+#~ msgid "Could not play \"%s\""
+#~ msgstr "Neizdevās atskaņot  \"%s\""
