@@ -16,7 +16,7 @@ AC_HEADER_STDC
 AM_PROG_LIBTOOL
 
 GNOME_DEBUG_CHECK
-GNOME_COMPILE_WARNINGS(error)
+# GNOME_COMPILE_WARNINGS(error)
 AM_PATH_GLIB_2_0
 
 dnl Version dependencies
@@ -39,7 +39,7 @@ PKG_CHECK_MODULES(MUINE,
 		  glib-2.0 >= $GLIB_REQUIRED \
 		  gtk+-2.0 >= $GTK_REQUIRED \
 		  gnome-icon-theme >= $ICON_THEME_REQUIRED \
-		  gstreamer-0.10 >= $GSTREAMER_REQUIRED)
+		  gstreamer-1.0 >= $GSTREAMER_REQUIRED)
 AC_SUBST(MUINE_CFLAGS)
 AC_SUBST(MUINE_LIBS)
 
@@ -60,8 +60,8 @@ PKG_CHECK_MODULES(NOTIFYSHARP,
                  notify-sharp >= $NOTIFYSHARP_REQUIRED)
 
 dnl ndesk-dbus
-PKG_CHECK_MODULES(DBUS, ndesk-dbus-1.0 >= 0.4 \
-	ndesk-dbus-glib-1.0 >= 0.3, have_dbus="yes", have_dbus="no")
+PKG_CHECK_MODULES(DBUS, dbus-sharp-1.0 >= 0.4 \
+	dbus-sharp-glib-1.0 >= 0.3, have_dbus="yes", have_dbus="no")
 if test "x$have_dbus" != "xyes"; then
 	AC_MSG_ERROR([You need NDESK-DBUS)])
 fi
@@ -103,7 +103,7 @@ GDBM_LIBS="-lgdbm"
 AC_SUBST(GDBM_LIBS)
 
 dnl Check for Mono
-AC_PATH_PROG(MCS, gmcs)
+AC_PATH_PROG(MCS, mcs)
 if test x$MCS = x; then
         AC_MSG_ERROR(You need gmcs)
 fi

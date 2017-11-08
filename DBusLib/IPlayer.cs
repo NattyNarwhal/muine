@@ -1,5 +1,5 @@
 
-using NDesk.DBus;
+using DBus;
 
 namespace Muine.DBusLib
 {

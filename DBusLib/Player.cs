@@ -21,7 +21,7 @@
 using System;
 using System.Collections;
 
-using NDesk.DBus;
+using DBus;
 
 using Muine.PluginLib;
 

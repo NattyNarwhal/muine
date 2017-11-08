@@ -110,7 +110,7 @@ namespace Muine
 		public static void Main (string [] args)
 		{
 			try {
-				NDesk.DBus.BusG.Init ();
+				DBus.BusG.Init ();
 			} catch {}
 
 			try {
